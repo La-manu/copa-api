@@ -1,15 +1,22 @@
 ### 1. `README.md`
 
-Este arquivo explica o que a aplicação faz, os destaques visuais (grid de cards, feedbacks e responsividade) e o manual de instrução para o professor ou avaliador rodar o projeto localmente apenas configurando o token JWT e abrindo o arquivo HTML.
+## 🏆 Portal Copa do Mundo 2026 — Interface Web
 
-[file-tag: code-generated-file-1-1781618795948362294]
-
-````markdown
-# 🏆 Portal Copa do Mundo 2026 — Interface Web
-
-Esta é uma aplicação web (Single Page Application) desenvolvida em HTML5, CSS3 e JavaScript Puro (Vanilla JS) para exibir dados em tempo real da Copa do Mundo de 2026, consumindo uma API REST com autenticação baseada em JWT (JSON Web Tokens).
-
+A ferramenta definitiva para integrar dados em tempo real do maior evento de futebol do planeta diretamente no seu aplicativo, site ou bot. Cobertura completa dos jogos nos Estados Unidos, México e Canadá.
 Este projeto foi construído como parte do **Desafio Copa do Mundo 2026 — Front-end com IA**, com foco na integração de inteligência artificial no ciclo de desenvolvimento de software e no tratamento robusto de erros de rede e API.
+
+## 👤 Feito por - 
+- Amanda Bellizotti Nº 03
+- Ana Julia Thimote N° 04
+- Beatriz Tacahashi Nº 07
+- Layra Scarmanha N° 15
+
+## 🛠️ Recursos Principais
+
+* **Placar ao Vivo:** Gols, cartões e substituições em tempo real.
+* **Estatísticas:** Dados de posse de bola, finalizações e desempenho individual.
+* **Calendário:** Cronograma completo de jogos e horários locais das 16 sedes.
+* **Tabela Atualizada:** Classificação dos grupos em tempo real após cada apito final.
 
 ## 🚀 Funcionalidades
 
@@ -20,11 +27,19 @@ Este projeto foi construído como parte do **Desafio Copa do Mundo 2026 — Fron
   - **Tratamento de Erros:** Banner customizado amigável caso ocorra falhas de conexão, erro 401 (token expirado), limite de requisições (429) ou instabilidades no servidor (500).
 - **Responsividade Total:** Interface perfeitamente adaptada para dispositivos móveis, tablets e computadores.
 
-## 🛠️ Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 
 - **HTML5:** Estrutura semântica e limpa.
 - **CSS3 Moderno:** Flexbox, CSS Grid, Variáveis (Custom Properties) e Animações `@keyframes`.
 - **JavaScript Vanilla (ES6+):** Programação assíncrona (`Async/Await`), manipulação de DOM e consumo da Fetch API com cabeçalhos customizados.
+
+
+## ✅ Vantagens Técnicas
+
+* **Baixa Latência:** Dados rápidos para notificações antes da transmissão da TV.
+* **Formato JSON:** Integração simples com qualquer linguagem de programação.
+* **Alta Escalabilidade:** Infraestrutura pronta para bilhões de requisições.
+
 
 ## 📦 Como Executar o Projeto Localmente
 
