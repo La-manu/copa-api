@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Copa do Mundo 2026</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <h1>🏆 FIFA WORLD CUP 2026</h1>
+      <p>O maior espetáculo do futebol mundial</p>
+
+      <button onclick="carregarTimes()">Explorar seleções</button>
+    </div>
+  </header>
+
+  <!-- CONTEÚDO -->
+  <main class="container">
+
+    <section class="panel">
+      <h2>⚽ Seleções classificadas</h2>
+      <div id="status"></div>
+      <ul id="lista-times"></ul>
+    </section>
+
+    <section class="panel">
+      <h2>🔥 Jogos em destaque</h2>
+      <div id="jogos" class="grid"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    © Copa do Mundo 2026 — Simulação de interface
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

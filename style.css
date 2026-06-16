@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, Arial;
+}
+
+body {
+  background: #050814;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  height: 70vh;
+  background: url("https://images.unsplash.com/photo-1522778119026-d647f0596c20") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.4), rgba(5,8,20,1));
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  opacity: 0.85;
+  margin-top: 10px;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 999px;
+  background: #00d4ff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  transform: scale(1.05);
+  background: #00b8ff;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+  display: grid;
+  gap: 30px;
+}
+
+/* PAINÉIS */
+.panel {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 20px;
+  border-radius: 18px;
+  backdrop-filter: blur(10px);
+}
+
+.panel h2 {
+  margin-bottom: 15px;
+}
+
+/* LISTA */
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  margin: 6px 0;
+  background: rgba(255,255,255,0.05);
+  border-radius: 10px;
+}
+
+/* GRID DE JOGOS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: linear-gradient(145deg, rgba(255,255,255,0.07), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #00d4ff;
+  box-shadow: 0 10px 30px rgba(0,212,255,0.15);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+/* Container de jogos (Grid ou Flex dependendo do seu layout) */
+#lista-jogos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 1rem 0;
+}
+
+/* Estilo do Card de Partida */
+.card-partida {
+  background: rgba(255, 255, 255, 0.03); /* Mantendo o tom escuro do seu painel */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.2rem;
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.card-partida:hover {
+  border-color: var(--accent-color);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Badge do grupo no topo do jogo */
+.match-group {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+/* Alinhamento do confronto (Time X Time) */
+.match-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.team-home, .team-away {
+  flex: 1;
+}
+
+.team-home { text-align: right; }
+.team-away { text-align: left; }
+
+/* O "VS" no meio do card */
+.match-vs {
+  background: var(--primary-color);
+  color: white;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 800;
+}
+
+/* Informações extras na base do card */
+.match-info {
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  opacity: 0.5;
+}
